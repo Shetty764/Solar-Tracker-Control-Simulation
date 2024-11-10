@@ -78,10 +78,11 @@ This system is designed to integrate a solar PV system with a ***battery energy 
 
 1. Fork or download the entire Solar-Tracker-Control-Simulation repository.
 2. Open the `WormAndGearConstraint` Simulink model.
-3. Input the latitude and longitude of the solar tracker’s location.
-4. Adjust the motor parameters and solar panel settings as needed.
-5. Re-tune the PID controller if motor parameters are changed.
-6. Run the simulation.
+3. Load the following matlab file to the MATLAB workspace 'WormAndGearConstraintSupport/Scripts/WormAndGearConstraintParameters.m' .
+4. Input the latitude and longitude of the solar tracker’s location.
+5. Adjust the motor parameters and solar panel settings as needed.
+6. Re-tune the PID controller if motor parameters are changed.
+7. Run the simulation.
 
 ---
 ## References:
